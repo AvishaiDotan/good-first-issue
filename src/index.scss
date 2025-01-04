@@ -1,0 +1,10 @@
+@use '../src/assets/styles/base/_reset.scss';
+@use '../src/assets/styles/base/_typography.scss';
+@use '../src/assets/styles/base/_color-pallet';
+
+// Layout
+@use '../src/assets/styles/components/_layout.scss';
+
+// Components
+@use '../src/assets/styles/components/_component.scss';
+

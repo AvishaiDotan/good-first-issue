@@ -1,0 +1,18 @@
+@use '../base/_color-pallet.scss' as vars;
+
+main.layout {
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 100px 1fr;
+
+    height: 100vh;
+    background: vars.$clr-2;
+
+    // > header {
+    //     grid-column: 1/4;
+    // }
+
+    > * {
+        grid-column: 2;
+    }
+}
